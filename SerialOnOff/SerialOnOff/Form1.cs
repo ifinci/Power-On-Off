@@ -39,5 +39,11 @@ namespace SerialOnOff
             BackColor = Color.Red;
             _ipc.SendOFF();
         }
+
+        private void mainForm_MouseClick(object sender, MouseEventArgs e)
+        {
+            AboutBox1 ab = new AboutBox1();
+            ab.Show();
+        }
     }
 }

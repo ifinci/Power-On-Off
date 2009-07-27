@@ -80,6 +80,7 @@
             this.Name = "mainForm";
             this.Text = "Serial On Off";
             this.Load += new System.EventHandler(this.mainForm_Load);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.mainForm_MouseClick);
             this.ResumeLayout(false);
             this.PerformLayout();
 
