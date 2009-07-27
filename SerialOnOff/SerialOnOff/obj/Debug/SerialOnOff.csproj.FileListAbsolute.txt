@@ -1,8 +1,0 @@
-F:\SerialOnOff\trunk\SerialOnOff\SerialOnOff\bin\Debug\SerialOnOff.exe
-F:\SerialOnOff\trunk\SerialOnOff\SerialOnOff\bin\Debug\SerialOnOff.pdb
-F:\SerialOnOff\trunk\SerialOnOff\SerialOnOff\obj\Debug\ResolveAssemblyReference.cache
-F:\SerialOnOff\trunk\SerialOnOff\SerialOnOff\obj\Debug\SerialOnOff.mainForm.resources
-F:\SerialOnOff\trunk\SerialOnOff\SerialOnOff\obj\Debug\SerialOnOff.Properties.Resources.resources
-F:\SerialOnOff\trunk\SerialOnOff\SerialOnOff\obj\Debug\SerialOnOff.csproj.GenerateResource.Cache
-F:\SerialOnOff\trunk\SerialOnOff\SerialOnOff\obj\Debug\SerialOnOff.exe
-F:\SerialOnOff\trunk\SerialOnOff\SerialOnOff\obj\Debug\SerialOnOff.pdb
