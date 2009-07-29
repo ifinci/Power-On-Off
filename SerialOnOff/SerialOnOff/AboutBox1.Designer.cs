@@ -88,7 +88,6 @@
             this.labelProductName.TabIndex = 19;
             this.labelProductName.Text = "Serial On Off";
             this.labelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.labelProductName.Click += new System.EventHandler(this.labelProductName_Click);
             // 
             // labelVersion
             // 
