@@ -55,13 +55,19 @@ namespace SerialOnOff
         /// </summary>
         public IPC(int port)
         {
-            if (!IsConnected(port))
-                throw new Exception("No IPC found on COM" + port.ToString());
-            serialPort = new SerialPort("COM" + port, 300, Parity.None, 8, StopBits.One);
-            serialPort.ReadTimeout = 1000;
-            serialPort.DtrEnable = !serialPort.DtrEnable;
-            serialPort.Handshake = Handshake.None;
-            serialPort.Open();
+            if (IsConnected(port))
+            {
+                serialPort = new SerialPort("COM" + port, 300, Parity.None, 8, StopBits.One);
+                serialPort.ReadTimeout = 1000;
+                serialPort.DtrEnable = !serialPort.DtrEnable;
+                serialPort.Handshake = Handshake.None;
+                serialPort.Open();
+            }
+            else
+            {
+                serialPort = null;
+                // throw new Exception("No IPC found on COM" + port.ToString());
+            }
         }
 
         /// <summary>
@@ -69,7 +75,8 @@ namespace SerialOnOff
         /// </summary>
         public void SendOFF()
         {
-            Send(OFF);
+            if(serialPort != null)
+                Send(OFF);
         }
 
         private void Send(byte[] message)
@@ -96,7 +103,8 @@ namespace SerialOnOff
         /// </summary>
         public void SendOn()
         {
-            Send(ON);
+            if(serialPort != null)
+                Send(ON);
         }
     }
 }
