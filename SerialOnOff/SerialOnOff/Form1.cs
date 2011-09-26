@@ -42,6 +42,11 @@ namespace SerialOnOff
 
         private void mainForm_MouseClick(object sender, MouseEventArgs e)
         {
+            
+        }
+
+        private void Title_Click(object sender, EventArgs e)
+        {
             AboutBox1 ab = new AboutBox1();
             ab.Show();
         }

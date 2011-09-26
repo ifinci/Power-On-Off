@@ -40,11 +40,12 @@
             this.Title.Location = new System.Drawing.Point(104, 34);
             this.Title.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Title.Name = "Title";
-            this.Title.Size = new System.Drawing.Size(100, 20);
+            this.Title.Size = new System.Drawing.Size(104, 20);
             this.Title.TabIndex = 0;
-            this.Title.Text = "Serial On Off";
+            this.Title.Text = "Power On Off";
             this.Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Title.UseMnemonic = false;
+            this.Title.Click += new System.EventHandler(this.Title_Click);
             // 
             // button1
             // 
@@ -80,7 +81,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "mainForm";
-            this.Text = "Serial On Off";
+            this.Text = "Power On Off";
             this.Load += new System.EventHandler(this.mainForm_Load);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.mainForm_MouseClick);
             this.ResumeLayout(false);
