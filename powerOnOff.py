@@ -33,7 +33,7 @@ class PooFrame(wx.Frame):
                           pos=(150, 150), size=(200, 150))
 
         # instance of the IPC we control.
-        self._ipc=IPC("COM18")
+        self._ipc=IPC("COM1")
                           
         # Create the menubar
         menuBar = wx.MenuBar()
