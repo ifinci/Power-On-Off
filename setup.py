@@ -21,8 +21,8 @@ includes = []
 excludes = []
 packages = []
 dll_excludes = ['w9xpopen.exe'] #only required for win 95/98
-extra_files = [("resources", ["resources\\acc.png", "resources\\acc.ico"]),
-    "winDist\\msvcr90.dll", "winDist\\Microsoft.VC90.CRT.manifest"
+extra_files = [("resources", ["resources\\acc.png", "resources\\acc.ico"])#,
+    #"winDist\\msvcr90.dll", "winDist\\Microsoft.VC90.CRT.manifest"
 ]
 
 setup(
