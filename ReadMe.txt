@@ -1,7 +1,12 @@
-Serial On Off
+Power On Off
 =============
-Written: Ilan Finci (ifinci@nds.com)
+Written: Ilan Finci (Ilan@Finci.org)
 
-This is my first try in C# so bare with me.
+After writting the first version in C# (was nice, but no thanks), I now want to move this project to python.
 
-This is a simple GUI to control the IPC device, which in turn, control the power of connected devices (STB...).
+The project is now hosted on github at:
+https://github.com/ifinci/Power-On-Off
+
+feel free to contribute.
+
+Ilan
