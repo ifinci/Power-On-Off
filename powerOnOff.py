@@ -7,7 +7,7 @@
         
     CHANGE LOG:
 '''
-__version__ = '1.5'
+__version__ = '2.0'
 __author__ = "Ilan Finci (Ilan@Finci.org)"
 __date__ = '11-Oct-2011'
 
