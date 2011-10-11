@@ -89,6 +89,10 @@ class PooFrame(wx.Frame):
         sizer.Add(sizer2, 0, wx.ALL| wx.ALIGN_CENTRE_HORIZONTAL, 10)
         self.panel.SetSizer(sizer)
         self.panel.Layout()
+        
+        #add icon
+        _icon = wx.Icon('resources\\acc.ico', wx.BITMAP_TYPE_ICO)
+        self.SetIcon(_icon)
 
     def OnTimeToClose(self, evt):
         '''Event handler for the button click.'''
